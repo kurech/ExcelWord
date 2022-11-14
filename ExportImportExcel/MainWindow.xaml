@@ -1,0 +1,18 @@
+﻿<Window x:Class="ExportImportExcel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExportImportExcel"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="350" Width="350" MinHeight="350" MinWidth="350" Background="AliceBlue">
+    <Grid>
+        <DockPanel LastChildFill="False" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="BnImport" DockPanel.Dock="Top" Width="150" Height="50" Content="Импорт данных" Click="BnImport_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+            <Button x:Name="BnExport" DockPanel.Dock="Top" Width="150" Height="50" Content="Экспорт в Excel" Click="BnExport_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+            <Button x:Name="BnImportJson" DockPanel.Dock="Top" Width="150" Height="50" Content="Импорт JSON данных" Click="BnImportJson_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+            <Button x:Name="BnExportWord" DockPanel.Dock="Top" Width="150" Height="50" Content="Экспорт в Word" Click="BnExportWord_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+        </DockPanel>
+    </Grid>
+</Window>
